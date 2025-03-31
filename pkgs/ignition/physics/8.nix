@@ -1,6 +1,7 @@
 {
   callPackage,
   ignition,
+  sdformat_15,
   ...
 } @ args:
 callPackage ./. ({
@@ -12,5 +13,6 @@ callPackage ./. ({
     ignition-plugin = ignition.plugin3;
     ignition-common = ignition.common6;
     ignition-math = ignition.math8;
+    sdformat = sdformat_15;
   }
   // args)
